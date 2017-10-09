@@ -1,0 +1,82 @@
+@@ -1,81 +0,0 @@
+.jumbotron{
+  background-image: url(index.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+.jumbotron img {
+  height: 250px;
+  border-style:groove;
+}
+
+.row {
+  height: inherit;
+}
+
+.col-fluid {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-3 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+  height: 760px;
+  text-align:center;
+}
+
+.container-fluid img {
+  height:250px;
+  align-items: center;
+}
+
+.textbody {
+  text-align:left;
+  margin-left: auto;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.captionhead {
+  text-align:center;
+  color: navy blue;
+}
+
+.captionbody {
+  text-align:center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#image img{
+ width: 500px;
+}
+
+#MMM {
+  font-family: 'Quicksand', sans-serif;
+  width:500px;
+}
+
+
+html {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
