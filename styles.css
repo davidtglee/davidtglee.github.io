@@ -56,6 +56,7 @@
 #MMM {
   font-family: 'Quicksand', sans-serif;
   width:500px;
+  font-size:1.5vmax;
 }
 
 
@@ -79,4 +80,8 @@ html {
   html {
     font-size: 28px;
   }
+}
+
+h1 {
+  font-size:5vw;
 }
