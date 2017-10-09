@@ -24,6 +24,7 @@
   font-weight: bolder;
   height: inherit;
   text-align:center;
+  width:100%;
 }
 
 .container-fluid img {
@@ -56,7 +57,7 @@
 #MMM {
   font-family: 'Quicksand', sans-serif;
   width:500px;
-  font-size:1.5vmax;
+  font-size:1.4vmax;
 }
 
 
