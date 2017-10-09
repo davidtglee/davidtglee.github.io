@@ -22,7 +22,7 @@
 .col-3 {
   font-family: 'Titillium Web', sans-serif;
   font-weight: bolder;
-  height: 760px;
+  height: inherit;
   text-align:center;
 }
 
