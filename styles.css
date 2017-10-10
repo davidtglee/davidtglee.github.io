@@ -32,6 +32,11 @@
   align-items: center;
 }
 
+
+.image {
+  @media max-width: 500px;
+}
+
 .textbody {
   text-align:left;
   font-size: auto;
@@ -48,10 +53,6 @@
 .captionbody {
   text-align:center;
   font-family: 'Quicksand', sans-serif;
-}
-
-#image img{
- width: 500px;
 }
 
 #MMM {
