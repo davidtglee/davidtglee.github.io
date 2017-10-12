@@ -107,14 +107,16 @@
 
 
 h1 {
-  font-size:4.5vw;
+  font-size:3.5vw;
 }
 
 h2 {
   font-size:2vmax;
 }
 
-
+h5 {
+  font-size:1.5vmax;
+}
 
   a.button{
    display:inline-block;
