@@ -90,11 +90,13 @@
 .captionhead {
   text-align:center;
   color: navy blue;
+  font-size:2vmax;
 }
 
 .captionbody {
   text-align:center;
   font-family: 'Quicksand', sans-serif;
+  font-size:1vmax;
 }
 
 #MMM {
@@ -111,6 +113,8 @@ h1 {
 h2 {
   font-size:2vmax;
 }
+
+
 
   a.button{
    display:inline-block;
