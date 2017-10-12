@@ -27,6 +27,11 @@
   width:100%;
 }
 
+.col-9 {
+  height: inherit;
+  width:100%;
+}
+
 
 .container-fluid img {
   height:300px;
@@ -43,7 +48,22 @@
   font-size: auto;
   margin-left: auto;
   font-family: 'Quicksand', sans-serif;
+}
 
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .captionhead {
@@ -58,32 +78,10 @@
 
 #MMM {
   font-family: 'Quicksand', sans-serif;
-  width:450px;
+  max-width:450px;
   font-size:1.2vmax;
 }
 
-
-html {
-  font-size: 14px;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 16px;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 20px;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 28px;
-  }
-}
 
 h1 {
   font-size:4.5vw;
